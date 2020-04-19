@@ -1,5 +1,5 @@
 import sys
-N=sys.stdin.readline()
+N=input()
 
 if "7" in N:
     print("Yes")
