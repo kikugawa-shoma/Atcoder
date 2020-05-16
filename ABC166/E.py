@@ -21,6 +21,7 @@ for a in C:
             l1=m1
         else:
             r1=m1
+
     l2=0
     r2=N
     while r2-l2>1:
@@ -29,6 +30,7 @@ for a in C:
             l2=m2
         else:
             r2=m2
+
     ans += l2-l1
 
 print(ans)
