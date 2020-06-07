@@ -44,8 +44,3 @@ class UnionFind:
 
     def __str__(self):
         return "\n".join("{}: {}".format(r, self.members(r)) for r in self.roots())
-
-
-a = 0
-
-

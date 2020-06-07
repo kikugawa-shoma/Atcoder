@@ -1,4 +1,4 @@
-def factorization(n):
+def prime_factrizer(n):
     arr = []
     temp = n
     for i in range(2, int(-(-n**0.5//1))+1):
