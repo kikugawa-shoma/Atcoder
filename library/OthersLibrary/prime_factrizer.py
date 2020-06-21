@@ -16,3 +16,5 @@ def prime_factrizer(n):
         arr.append([n, 1])
 
     return arr
+
+print(prime_factrizer(20))
