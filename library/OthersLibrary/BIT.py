@@ -6,6 +6,7 @@ class BIT:
         for i, e in enumerate(init_list):
             self.update(i, e)
 
+    #a_k?x???
     def update(self, k, x):
         k = k + 1
         while k < self.num:
@@ -20,7 +21,6 @@ class BIT:
             r -= r & (-r)
         return ret
 
+    #???????????l????r?????
     def query2(self, l, r):
         return self.query1(r) - self.query1(l)
-
-
