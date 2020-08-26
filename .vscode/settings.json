@@ -1,6 +1,8 @@
 {
     "python.pythonPath": "c:\\Users\\ktmks\\anaconda3\\envs\\atcoder\\python.exe",
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "array": "cpp"
     }
 }
