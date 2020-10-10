@@ -46,7 +46,7 @@ cost = [[10**9]*W for _ in range(H)]
 qA = deque()
 qB = deque()
 qA.append([Ch,Cw,0])
-cost[Ch][Cw] = 0
+cost[Ch][Cw] =       0
 
 while qA != deque():
     move_A()
